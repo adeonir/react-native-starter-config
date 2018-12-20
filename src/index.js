@@ -1,5 +1,9 @@
+import '~/config/ReactotronConfig'
+import '~/config/DevToolsConfig'
+
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
+
 import Hello from '~/components/Hello'
 
 const bgColor = '#f5fcff'
@@ -20,7 +24,7 @@ const styles = StyleSheet.create({
 
 const App = () => (
   <View style={styles.container}>
-    <Hello style={styles.welcome} />
+    <Hello style={styles.welcome} text='Welcome to React Native!' />
   </View>
 )
 
