@@ -11,8 +11,16 @@
       }
     ],
     "import/prefer-default-export": "off",
+    "global-require": "off",
+    "no-console": "off",
     "semi": ["error", "never"],
-    "jsx-quotes": ["error", "prefer-single"]
+    "jsx-quotes": ["error", "prefer-single"],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ]
   },
   "globals": {
     "__DEV__": true
